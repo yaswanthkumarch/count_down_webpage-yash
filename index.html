@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title> Countdown Timer</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Countdown App</h1>
+        <div class="countdown">
+            <div>
+                <p id="Days">00</p>
+                <h3>Days</h3>
+            </div>
+
+            <div>
+                <p id="Hours">00</p>
+                <h3>Hours</h3>
+            </div>
+
+            <div>
+                <p id="Minutes">00</p>
+                <h3>Minutes</h3>
+            </div>
+            <div>
+                <p id="Seconds">00</p>
+                <h3>Seconds</h3>
+            </div>
+        </div>
+
+        <div class="hills">
+            <img src="./images/pattern-hills.svg" alt="">
+        </div>
+
+
+    </div>
+
+    <button onclick="Create()" class="Button_create">Start</button>
+
+    <div class="modal">
+        <div class="modal_overlay"></div>
+        <div class="modal_body">
+            <div class="startDate">
+                <span>Date and time</span>
+                <input class="dateTime" step="2" type="datetime-local">
+                <div class="confirm">
+                    <button onclick="Accept()" class="btn_accept">Set Time</button>
+                    <button onclick="Cancel()" class="btn_refuse">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
