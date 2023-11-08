@@ -20,7 +20,7 @@ const countdown = () => {
         return;
     }
     console.log('ads')
-    $('.Button_create').innerText = "HUỶ"
+    $('.Button_create').innerText = "Remaining Time"
     isActive = true;
     const second = 1000;
     const minute = second * 60;
@@ -45,8 +45,9 @@ const Create = () => {
     if(isActive) {
         isActive = false;
         clearInterval(timeID)
-        $('.Button_create').innerText = "TẠO NGÀY KẾT THÚC"
+        $('.Button_create').innerText = "Start"
         $('#Days').innerHTML = '00'
+        
         $('#Hours').innerHTML =  '00'
         $('#Minutes').innerHTML =  '00'
         $('#Seconds').innerHTML =  '00'
