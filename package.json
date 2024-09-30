@@ -1,0 +1,29 @@
+{
+  "name": "count_down_webpage",
+  "version": "1.0.0",
+  "description": "A simple countdown webpage.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo \"No build process defined\""
+  },
+  "keywords": [
+    "countdown",
+    "webpage",
+    "timer"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/count_down_webpage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/count_down_webpage/issues"
+  },
+  "homepage": "https://github.com/yourusername/count_down_webpage#readme"
+}
